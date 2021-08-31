@@ -241,7 +241,7 @@ public class curpFrame extends javax.swing.JFrame {
        
       
         
-        txMostrar.setText("Aquí está tu curp:  " + resultadoPaternoUno + resultadoMaternoUno + resultadoNombre + resultadoAño + resultadoMes  + resultadoDia + resultadoCon1 + resultadoCon2 + resultadoCon3);
+        txMostrar.setText("Aquí está tu curp:  " + resultadoPaternoUno + resultadoMaternoUno + resultadoNombre + resultadoAño + resultadoMes  + resultadoDia + resultadoCon1 + resultadoCon2 + resultadoCon3 );
         
         
     }//GEN-LAST:event_btObtenerActionPerformed

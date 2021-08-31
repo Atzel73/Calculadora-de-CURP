@@ -18,97 +18,98 @@ class ConsonantesPaternas_Curp {
 
         for (int i = 1; i < arregloConsonantesP.length; i++) {
 
-            if (arregloConsonantesP[i] == 'b' && arregloConsonantesP[i] == 'b') {
+            if (arregloConsonantesP[i] == 'b') {
 
                 FC = 'B';
-                SL = 'B';
-            } else if (arregloConsonantesP[i] == 'c' && arregloConsonantesP[i] == 'c') {
+                break;
+                
+            } else if (arregloConsonantesP[i] == 'c' ) {
 
                 FC = 'C';
-                SL = 'C';
-            } else if (arregloConsonantesP[i] == 'd' && arregloConsonantesP[i] == 'd') {
+                break;
+            } else if (arregloConsonantesP[i] == 'd' ) {
 
                 FC = 'D';
-                SL = 'D';
-            } else if (arregloConsonantesP[i] == 'f' && arregloConsonantesP[i] == 'f') {
+                break;
+            } else if (arregloConsonantesP[i] == 'f' ) {
 
                 FC = 'F';
-                SL = 'F';
-            }else if (arregloConsonantesP[i] == 'g' && arregloConsonantesP[i] == 'g'){
+                break;
+            }else if (arregloConsonantesP[i] == 'g' ){
 
               FC = 'G';
-              SL = 'G';
-          }else if (arregloConsonantesP[i] == 'h' && arregloConsonantesP[i] == 'h'){
+              break;
+          }else if (arregloConsonantesP[i] == 'h' ){
                   
               FC = 'H';
-              SL = 'H';
-          } else if (arregloConsonantesP[i] == 'j' && arregloConsonantesP[i] == 'j'){
+              break;
+          } else if (arregloConsonantesP[i] == 'j' ){
                   
               FC = 'J';
-              SL = 'J';
-          } else if (arregloConsonantesP[i] == 'k' && arregloConsonantesP[i] == 'k'){
+              break;
+          } else if (arregloConsonantesP[i] == 'k' ){
                   
               FC = 'K';
-              SL = 'K';
-          } else if (arregloConsonantesP[i] == 'l' && arregloConsonantesP[i] == 'l'){
+              break;
+          } else if (arregloConsonantesP[i] == 'l' ){
                   
               FC = 'L';
-              SL = 'L';
-          } else if (arregloConsonantesP[i] == 'm' && arregloConsonantesP[i] == 'm'){
+            break;
+          } else if (arregloConsonantesP[i] == 'm' ){
                   
               FC = 'M';
               SL = 'M';
-          } else if (arregloConsonantesP[i] == 'n' && arregloConsonantesP[i] == 'n'){
+          } else if (arregloConsonantesP[i] == 'n' ){
                   
               FC = 'N';
-              SL = 'N';
-          } else if (arregloConsonantesP[i] == 'ñ' && arregloConsonantesP[i] == 'ñ'){
+             break;
+          } else if (arregloConsonantesP[i] == 'ñ' ){
                   
               FC = 'X';
-              SL = 'X';
-          } else if (arregloConsonantesP[i] == 'p' && arregloConsonantesP[i] == 'p'){
+              break;
+          } else if (arregloConsonantesP[i] == 'p' ){
                   
               FC = 'P';
-              SL = 'P';
-          } else if (arregloConsonantesP[i] == 'q' && arregloConsonantesP[i] == 'q'){
+             break;
+          } else if (arregloConsonantesP[i] == 'q' ){
                   
               FC = 'Q';
-              SL = 'Q';
-          } else if (arregloConsonantesP[i] == 'r' && arregloConsonantesP[i] == 'r'){
+              break;
+          } else if (arregloConsonantesP[i] == 'r' ){
                   
               FC = 'R';
-              SL = 'R';
-          } else if (arregloConsonantesP[i] == 's' && arregloConsonantesP[i] == 's'){
+              break;
+          } else if (arregloConsonantesP[i] == 's' ){
                   
               FC = 'S';
-              SL = 'S';
-          } else if (arregloConsonantesP[i] == 'h' && arregloConsonantesP[i] == 't'){
+              break;
+          } else if (arregloConsonantesP[i] == 'h' ){
                   
               FC = 'T';
-              SL = 'T';
-          } else if (arregloConsonantesP[i] == 'v' && arregloConsonantesP[i] == 'v'){
+              break;
+          } else if (arregloConsonantesP[i] == 'v'){
                   
               FC = 'V';
-              SL = 'V';
-          } else if (arregloConsonantesP[i] == 'w' && arregloConsonantesP[i] == 'w'){
+              break;
+          } else if (arregloConsonantesP[i] == 'w' ){
                   
               FC = 'W';
-              SL = 'W';
-          } else if (arregloConsonantesP[i] == 'x' && arregloConsonantesP[i] == 'x'){
+              break;
+          } else if (arregloConsonantesP[i] == 'x' ){
                   
               FC = 'X';
-              SL = 'X';
-          } else if (arregloConsonantesP[i] == 'y' && arregloConsonantesP[i] == 'y'){
+              break;
+          } else if (arregloConsonantesP[i] == 'y' ){
                   
               FC = 'Y';
-              SL = 'Y';
-          } else if (arregloConsonantesP[i] == 'z' && arregloConsonantesP[i] == 'z'){
+              break;
+          } else if (arregloConsonantesP[i] == 'z' ){
                   
               FC = 'Z';
-              SL = 'Z';
+              break;
           }
         }
-        Letters7 = String.valueOf(FC) + String.valueOf(SL);
+        Letters7 = String.valueOf(FC);
         return Letters7;
     }
     
